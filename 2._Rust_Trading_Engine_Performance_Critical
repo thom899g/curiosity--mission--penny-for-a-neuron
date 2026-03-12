@@ -1,0 +1,4 @@
+- Stateless trading logic compiled to native binary
+- Risk calculations with formal verification potential
+- Web3 interactions via `web3-rs` crate
+- gRPC communication with Python layer
