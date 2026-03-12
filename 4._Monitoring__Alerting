@@ -1,0 +1,17 @@
+- Firebase Firestore for real-time state
+- Telegram bot for immediate notifications
+- Systemd service management
+
+## SECURITY MODEL
+- Non-custodial architecture (keys never leave hardware wallet)
+- Session keys with daily limits and automatic expiration
+- Multi-factor idle detection to prevent false positives
+- Circuit breakers for price feed divergence
+- Private RPC endpoints with MEV protection
+
+## DEPLOYMENT SEQUENCE
+1. Firebase project setup (human action required)
+2. Smart contract deployment (one-time)
+3. Initial funding and session key generation
+4. Daemon installation and configuration
+5. Monitoring dashboard setup
