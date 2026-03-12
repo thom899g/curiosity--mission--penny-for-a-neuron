@@ -1,0 +1,4 @@
+- Idle detection using `psutil` and system APIs
+- Resource management with graceful interruption
+- Firebase integration for state persistence
+- Telegram alerts for critical events
